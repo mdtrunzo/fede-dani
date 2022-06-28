@@ -40,8 +40,7 @@
   position: absolute;
   z-index: 0;
 }
-.red,
-.servicios {
+.red {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,6 +49,16 @@
   text-align: center;
   padding: 0 30%;
   position: relative;
+}
+.servicios{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding: 0 20%;
 }
 .quienes-somos {
   padding: 0 20% !important;
@@ -101,7 +110,7 @@ canvas {
 .red h3 {
   color: #538691;
 }
-.red button:hover, .contacto button:hover {
+.red button:hover, .contacto button:hover, .servicios button:hover {
   background-color: #46737d;
 }
 .red h2::after {
@@ -321,4 +330,92 @@ hr{
   font-size: 14px;
   width: 50%;
   font-weight: lighter;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: -7px;
+  left: 0;
+  background-color: #538691;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.servicios-data{
+  z-index: 10;
+  color:white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.servicios-data::after {
+  content:'';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top:100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #6a6a6a;
+  z-index: -1;
+}
+.h3{
+  padding-bottom: 20px;
+  color:#538691;
+}
+.servicios-flex-text{
+  width: 50%;
+  margin: auto;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.servicios-data-bloque{
+  background-color: rgba(51, 81, 89, 0.5);
+  border-radius: 50%;
+  padding: 40px;
+  margin: 0 30px;
+  transition: .5s;
+}
+.servicios-data-bloque:hover{
+  background-color: rgba(84, 134, 146, 0.5);
+  cursor: pointer;
+}
+.servicios-data-bloque p {
+  font-size: 10px;
+}
+.servicios-data-bloque h3{
+  font-size: 12px;
+  padding: 10px 0;
+}
+.btn{
+  background: #538691;
+  color: white;
+  border-radius: 15px;
+  padding: 20px 50px;
+  width: 30%;
+  margin: auto;
+  cursor: pointer;
+  border: none;
+}
+.servicios-flex{
+  display: flex;
+  flex-direction: column;
+  color:white;
 }

@@ -16,7 +16,7 @@ function Header() {
             smooth={true}
             duration={500}
           >
-            <li>Inicio</li>
+            <li class="hover-underline-animation">Inicio</li>
           </ScrollLink>
           <ScrollLink
             activeClass="active"
@@ -25,7 +25,7 @@ function Header() {
             smooth={true}
             duration={500}
           >
-            <li>Conoce La Red</li>
+            <li class="hover-underline-animation">Conoce La Red</li>
           </ScrollLink>
           <ScrollLink
             activeClass="active"
@@ -34,7 +34,7 @@ function Header() {
             smooth={true}
             duration={500}
           >
-          <li>Quiénes Somos</li>
+          <li class="hover-underline-animation">Quiénes Somos</li>
           </ScrollLink>
           <ScrollLink
             activeClass="active"
@@ -43,7 +43,7 @@ function Header() {
             smooth={true}
             duration={500}
           >
-            <li>Servicios</li>
+            <li class="hover-underline-animation">Servicios</li>
           </ScrollLink>
           <ScrollLink
             activeClass="active"
@@ -52,7 +52,7 @@ function Header() {
             smooth={true}
             duration={500}
           >
-            <li>Contacto</li>
+            <li class="hover-underline-animation">Contacto</li>
           </ScrollLink>
         </ul>
       </div>

@@ -1,4 +1,4 @@
-  import video5 from '../assets/5.mp4'
+  import video5 from '../assets/5.webm'
   import { Element } from 'react-scroll'
   import { Fade } from 'react-awesome-reveal'
 
