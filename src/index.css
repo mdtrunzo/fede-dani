@@ -40,6 +40,9 @@
   position: absolute;
   z-index: 0;
 }
+.overlay-contact{
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
 .red {
   height: 100vh;
   display: flex;

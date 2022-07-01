@@ -112,7 +112,7 @@ function QuienesSomos() {
   return (
     <Element id='quienes-somos'>
     <div className="quienes-somos red">
-
+    <div className="overlay overlay-contact"></div>
           <video loop autoPlay muted>
             <source src={video6} type="video/mp4" />
           </video>
