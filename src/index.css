@@ -142,6 +142,10 @@ canvas {
 .quienes-somos-icons {
   display: flex;
 }
+
+.quienes-somos p, .quienes-somos h2, .quienes-somos h4, .quienes-somos svg {
+  color:white;
+}
 .icon-text h3 {
   color:black !important
 }
