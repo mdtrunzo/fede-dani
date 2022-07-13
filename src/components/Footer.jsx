@@ -1,3 +1,6 @@
+import Logo from '../assets/diaman.png'
+import LogoLetras from '../assets/logo-letras.png'
+
 function Footer() {
   return (
     <div className="footer">
@@ -10,11 +13,8 @@ function Footer() {
       <hr />
       <div className="footer-bottom">
         <div className="contact-info">
-          <h3>Dónde estamos</h3>
-          <span>TEST LOGO</span>
-          <span>Calle 1234, Buenos Aires</span>
-          <span>testlogo@gmail.com</span>
-          <span>154695-5858</span>
+          <img src={Logo} alt="" width={70}/>
+          <img src={LogoLetras} alt="" width={130}/>
         </div>
         <div className="policy">
           <p>

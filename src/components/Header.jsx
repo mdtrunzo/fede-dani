@@ -1,12 +1,14 @@
-import Logo from '../assets/logo-fede.png'
+import Logo from '../assets/logo.png'
+import LogoLetras from '../assets/logo-letras.png'
 import { Link as ScrollLink } from 'react-scroll'
 
 function Header() {
   return (
     <div className="header">
-      <div className="logo">
-        <img src={Logo} alt="" width="200" />
-      </div>
+        <div className="logo">
+          <img src={Logo} alt="" width="80" />
+          <img src={LogoLetras} alt="" width="180" />
+        </div>
       <div className="nav">
         <ul>
           <ScrollLink
@@ -34,7 +36,7 @@ function Header() {
             smooth={true}
             duration={500}
           >
-          <li class="hover-underline-animation">Quiénes Somos</li>
+            <li class="hover-underline-animation">Quiénes Somos</li>
           </ScrollLink>
           <ScrollLink
             activeClass="active"

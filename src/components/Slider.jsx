@@ -22,7 +22,7 @@ function Slider() {
           <div>
             <div className="slider-captions">
               <h1>
-                Logo <b>Testing</b>
+                Diaman<b>thum</b>
               </h1>
               <p>A quia incidunt perspiciatis labore dolorem magnam facilis.</p>
               <ScrollLink
