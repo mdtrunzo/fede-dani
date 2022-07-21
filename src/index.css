@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @font-face {
   font-family: 'Altona Sans';
-  src: local('AltonaSans-Regular.ttf'), url('./assets//fonts/AltonaSans-Regular.ttf') format('truetype');
+  src: local('AltonaSans-Regular.ttf'), url('./assets/fonts/AltonaSans-Regular.ttf') format('truetype');
 }
 * {
   margin: 0;
