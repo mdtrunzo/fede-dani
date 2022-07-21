@@ -4,7 +4,7 @@ import { Element } from 'react-scroll'
 
 function Red() {
   return (
-    <Element id='red'>
+    <Element id="red">
       <div className="red">
         <div className="overlay"></div>
         <video loop autoPlay muted>
@@ -23,7 +23,10 @@ function Red() {
               dolor ratione voluptatibus, asperiores id minus, quod quas rem
               provident accusamus repellat aut!
             </p>
-            <button>ENTRAR A LA RED</button>
+            <div className="buttons-container">
+              <button>CONOCE LA RED</button>
+              <button>ENTRAR A LA RED</button>
+            </div>
           </div>
         </Fade>
       </div>

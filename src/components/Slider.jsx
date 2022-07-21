@@ -17,12 +17,12 @@ function Slider() {
           animation="cubeAnimation"
           bullets={false}
           play={true}
-          interval={6000}
+          interval={8000}
         >
           <div>
             <div className="slider-captions">
               <h1>
-                Diaman<b>thum</b>
+                Diamanthum
               </h1>
               <p>A quia incidunt perspiciatis labore dolorem magnam facilis.</p>
               <ScrollLink
