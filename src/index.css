@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @font-face {
   font-family: 'Altona Sans';
-  src: local('AltonaSans-Regular.ttf'), url('./assets//fonts/AltonaSans-Regular.ttf') format('truetype');
+  src: local('AltonaSans-Regular.ttf'), url('./assets/fonts/AltonaSans-Regular.ttf') format('truetype');
 }
 * {
   margin: 0;
@@ -365,7 +365,7 @@ hr{
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #0087ca;
+  color: #538691;
 }
 
 .hover-underline-animation:after {
@@ -376,7 +376,7 @@ hr{
   height: 3px;
   bottom: -7px;
   left: 0;
-  background-color: #0D62A9;
+  background-color: #538691;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
