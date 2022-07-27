@@ -1,6 +1,7 @@
 import video3 from './../assets/3.mp4'
 import { Fade } from 'react-awesome-reveal'
 import { Element } from 'react-scroll'
+import { Link } from 'react-router-dom'
 
 function Red() {
   return (
@@ -24,8 +25,12 @@ function Red() {
               provident accusamus repellat aut!
             </p>
             <div className="buttons-container">
-              <button>CONOCE LA RED</button>
-              <button>ENTRAR A LA RED</button>
+              <Link to="/la-red">
+                <div>CONOCE LA RED</div>
+              </Link>
+              <Link to="/red">
+                <div>ENTRAR A LA RED</div>
+              </Link>
             </div>
           </div>
         </Fade>
